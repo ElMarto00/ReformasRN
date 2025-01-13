@@ -19,7 +19,7 @@
       ]
     },
     {
-      "source": "/js/(.*).js",
+      "source": "/mod/(.*).js",
       "headers": [
         {
           "key": "Cache-Control",
@@ -55,7 +55,7 @@
   },
   "functions": {
     "api/email.php": {
-      "runtime": "vercel-php@0.5.0"
+      "runtime": "vercel-php@0.7.3"
     }
   }
 }
