@@ -1,0 +1,765 @@
+/* Estilos Generales | Estilos Generales | Estilos Generales | Estilos Generales | Estilos Generales | Estilos Generales | Estilos Generales | Estilos Generales | Estilos Generales | */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  background-image: url("fondo/2.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+}
+
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px 0;
+}
+
+header.titulo {
+  background-color: #000; 
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+#logo {
+  width: 30%;
+  margin-right: 20px; 
+}
+
+#titulo {
+  width: 10%;
+  flex-grow: 1;
+  text-align: center;
+}
+
+header.titulo nav {
+  margin-top: 10px;
+}
+
+header.titulo nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+  width: 10%;
+}
+
+header.titulo nav a:hover {
+  color: #ffcc00;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section p {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+footer.pie {
+  background-color: #000; 
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+button img {
+  width: 50px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+button:hover img {
+  transform: scale(1.1);
+}
+
+/* Estilo para el pie de página */
+.pie-pagina {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.texto {
+color: white;
+
+}
+
+.minititulo {
+  color: yellow;
+}
+
+
+
+.enlaceLegal {
+  color: yellow;
+}
+
+
+
+
+
+
+
+/* Página de Inicio | Página de Inicio | Página de Inicio | Página de Inicio | Página de Inicio | Página de Inicio | Página de Inicio | Página de Inicio | Página de Inicio | Página de Inicio */
+
+.seccionInicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Usar el 100% de la altura del viewport */
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 10px; /* Espacio dentro de la caja */
+  border-radius: 0; /* Sin esquinas redondeadas */
+  border: 3px solid yellow; /* Borde amarillo */
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+
+}
+
+.imagenInicio1 {
+    max-width: 100%;
+    border: 2px solid #ffdd00;
+     width: 400px; /* Tamaño estándar */
+    height: 600px; /* Tamaño estándar */
+}
+
+.imagenInicio2 {
+    max-width: 100%;
+    border: 2px solid #ffdd00;
+     width: 400px; /* Tamaño estándar */
+    height: 600px; /* Tamaño estándar */
+}
+
+.imagenInicio3 {
+    max-width: 100%;
+    border: 2px solid #ffdd00;
+     width: 400px; /* Tamaño estándar */
+    height: 600px; /* Tamaño estándar */
+}
+
+.left {
+    order: 1;
+}
+
+.right {
+    order: 2;
+}
+
+.titulo {
+  color: yellow; /* Color amarillo para "Nuestros Servicios" */
+}
+
+.boton-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta el espacio según tus necesidades */
+}
+
+.obrero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Aumenta aún más el tamaño del botón */
+  height: 200px; /* Aumenta aún más el tamaño del botón */
+  border: none;
+  background: none;
+  padding: 0px;
+}
+
+.imagenObrero {
+  align: center;
+  width: 100%; /* Ajusta la ancho de la imagen para que ocupe todo el espacio del botón */
+  height: auto; /* Mantén la proporción de la imagen */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.text {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background: linear-gradient(180deg, #ffdd00, #ffffff);
+    border-radius: 8px;
+
+}
+
+.minititulo1 {
+  color: yellow;
+  align: justify;
+}
+
+
+.menu {
+text-align: center;
+color: yellow;
+
+}
+
+.mail {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Página de Servicios | Página de Servicios | Página de Servicios | Página de Servicios | Página de Servicios | Página de Servicios | Página de Servicios | Página de Servicios | Página de Servicios | */
+
+.service {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid yellow;
+}
+
+.service:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.service h2 {
+  color: yellow;
+  flex: 1;
+}
+
+.service p {
+  flex: 2;
+  margin: 0 20px;
+}
+
+.service img {
+  max-width: 300px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Página de Nosotros | Página de Nosotros | Página de Nosotros | Página de Nosotros | Página de Nosotros | Página de Nosotros | Página de Nosotros | Página de Nosotros | Página de Nosotros */
+
+
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  max-width: 500px;
+}
+
+/* Estilos para el contenedor del carrusel */
+.carousel {
+  background-color: black; /* Fondo negro para el carrusel */
+  color: white; /* Color del texto en blanco por si hay contenido textual */
+}
+
+.carousel-item img {
+  height: 600px; /* Ajusta la altura de las imágenes del carrusel */
+  width: 100%;
+  object-fit: contain; /* Asegura que las imágenes se ajusten completamente al contenedor */
+  display: block;
+  filter: brightness(85%); /* Aplica un ligero filtro de brillo */
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; /* Añade transición para los efectos */
+}
+
+.carousel-item img:hover {
+  filter: brightness(100%); /* Quita el filtro de brillo al pasar el ratón */
+  transform: scale(1.02); /* Aumenta ligeramente el tamaño al pasar el ratón */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: gold; /* Fondo dorado para los iconos de control */
+  border-radius: 50%; /* Bordes redondeados para los iconos */
+}
+
+.carousel-indicators li {
+  background-color: #fff; /* Cambia el color de los indicadores a blanco */
+  border: 1px solid #333; /* Añade un borde oscuro a los indicadores */
+  width: 12px; /* Ajusta el tamaño de los indicadores */
+  height: 12px; /* Ajusta el tamaño de los indicadores */
+  border-radius: 50%; /* Hace los indicadores redondos */
+}
+
+.carousel-indicators .active {
+  background-color: gold; /* Cambia el color del indicador activo a dorado */
+}
+
+/* Estilo para la sección de testimonios */
+.testimonios {
+  background-color: black; /* Fondo negro para la sección */
+  color: #fff; /* Texto en blanco */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+.testimonios h2 {
+  color: gold; /* Título en dorado */
+  margin-bottom: 20px;
+}
+
+.testimonios p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.testimonios blockquote {
+  background-color: #222; /* Fondo ligeramente más claro para el blockquote */
+  padding: 15px;
+  border-left: 5px solid gold; /* Borde izquierdo dorado */
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #ddd; /* Texto ligeramente más claro */
+  border-radius: 4px;
+}
+
+.testimonios cite {
+  display: block;
+  margin-top: 10px;
+  color: gold; /* Color dorado para el autor de la cita */
+  font-style: normal;
+}
+
+/* Estilo para la sección de introducción y valores */
+.seccion-introduccion, .seccion-valores {
+  background-color: black; /* Fondo blanco */
+  color: black; /* Texto en negro */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Hace que ambas secciones ocupen el mismo espacio */
+}
+
+.titulo-seccion { 
+  color: black; /* Título en negro */ 
+  margin-bottom: 20px;
+}
+.parrafo {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333; /* Texto en negro */
+}
+
+/* Estilo para la lista de valores */
+.lista-valores {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-valor {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 5px solid gold; /* Borde izquierdo dorado */
+  background-color: #f9f9f9; /* Fondo ligeramente más claro */
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.texto-fuerte {
+  color: #333; /* Texto fuerte en negro */
+  font-weight: bold;
+}
+
+.tituloNs {
+  color: yellow;
+  text-align: center;
+}
+
+.minimartillo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Aumenta aún más el tamaño del botón */
+  height: 100px; /* Aumenta aún más el tamaño del botón */
+  border: none;
+  background: none;
+  padding: 0px;
+}
+
+.imagenmm {
+  align: center;
+  width: 100%; /* Ajusta la ancho de la imagen para que ocupe todo el espacio del botón */
+  height: auto; /* Mantén la proporción de la imagen */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Página de Contacto | Página de Contacto | Página de Contacto | Página de Contacto | Página de Contacto | Página de Contacto | Página de Contacto | Página de Contacto | Página de Contacto |  */
+
+.contact-section { 
+  position: fixed;
+  top: 770px;
+  right:20px;
+  background-color: #ffcc00; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  z-index: 1000;
+} 
+.contact-section p { 
+  margin: 0
+}
+
+}
+.flex-container { 
+  display: flex; 
+} 
+.flex-item { 
+  margin-left: 1500px;
+  margin-right: 10px; 
+}
+
+.bodyForm {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-title {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.label {
+  display: none;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.botonFormulario {
+  padding: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.botonFormulario:hover {
+  background-color: #0056b3;
+}
+
+.mensaje-fijado {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+  max-height: 60vh;
+  max-width: 15%;
+  padding: 15px;
+  z-index: 1000;
+  border-radius: 0 0 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #FFD700;
+}
+.lista-no-ordenada {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.lista-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #555;
+  color: black;
+}
+
+.lista-item:last-child {
+  border-bottom: none;
+}
+
+.logoInfo {
+width: 40px; 
+height: 40px; 
+cursor: pointer; 
+margin-bottom: 10px;
+
+}
+
+.contacto {
+  background-color: black; /* Fondo negro para la sección */
+  color: #fff; /* Texto en blanco */
+  padding: 30px;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contacta {
+  color: gold; /* Título en dorado */
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.contacto strong {
+  color: gold; /* Texto fuerte en dorado */
+}
+
+.contacto a {
+  color: gold; /* Enlaces en dorado */
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline; /* Subrayado en hover */
+}
+
+
+/* Página de Legal | Página de Legal | Página de Legal | Página de Legal | Página de Legal | Página de Legal | Página de Legal | Página de Legal | Página de Legal | Página de Legal | Página de Legal*/
+
+/* Estilo para el contenido principal */
+.contenido-principal {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: #333;
+}
+
+.seccionLegal {
+  color: yellow;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.parrafo-legal, .parrafo-privacidad, .parrafo-terminos, .parrafo-accesibilidad {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | Sin Optimizar | */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

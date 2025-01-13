@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>ReformasRN - Contacto</title>
+  <meta charset="utf-8">
+  <meta name="description" z="Este es un documento html5">
+  <meta name="keywords" content="reformasRN, presupuesto, madrid">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="David Martinez">
+  <link rel="stylesheet" href="mod/estilos.css">
+  <link rel="icon" href="imagenes/logosimple.png" type="image/x-icon" sizes="16x16">
+</head>
+<body class="bodyForm">
+
+<header class="titulo">
+  <div class="header-content">
+    <img id="logo" class="logo" src="imagenes/logosimple.png" alt="Logo ReformasRN">
+    <img id="titulo" class="titulo-texto" src="imagenes/letraslogo.png" alt="ReformasRN">
+  </div>
+  <nav class="menu-nav">
+    <a href="Inicio.html" class="menu">Inicio</a>
+    <a href="Nosotros.html" class="menu">Nosotros</a>
+    <a href="Servicios.html" class="menu">Servicios</a>
+    <a href="Contacto.html" class="menu">Contacto</a>
+  </nav>
+</header>
+<aside>
+
+
+
+
+<div class="mensaje-fijado">
+    <img src="imagenes/info.png" alt="Plegar/Desplegar" class="logoInfo" onclick="toggleMensaje()">
+    <ul class="lista-no-ordenada" id="mensajeContenido">
+      <li class="lista-item">Una vez rellenado el formulario nuestro técnico se pondrá en contacto con usted vía WhatsApp o llamada telefónica lo antes posible.</li>
+      <li class="lista-item">Tenga en cuenta que la fecha y las horas indicadas en el formulario pudieran no estar disponibles, pero podrán concretarlas una vez que el técnico contacte con usted.</li>
+      <li class="lista-item">Los campos con el asterisco (*) son obligatorios.</li>
+      <li class="lista-item">Ajuste sus horas de disponibilidad dentro de nuestro horario laboral ()</li>
+      <li class="lista-item">En caso de que quiera dejar los campos de día y hora vacíos, el técnico concretará con usted una hora vía WhatsApp o llamada telefónica.</li>
+    </ul>
+  </div>
+
+</aside> 
+
+<main>
+  <form id="formulario" class="form" action="email.php" method="post">
+    <div class="form-group">
+      <h4 class="form-title">Nombre completo*:</h4>
+      <label for="nombreCompleto" class="label"></label>
+      <input type="text" name="nombre" id="nombreCompleto" required class="input">
+    </div>
+
+    <div class="form-group">
+      <h4 class="form-title">Correo Electrónico:</h4>
+      <label for="correo" class="label"></label>
+      <input type="email" name="correo" id="correo"  class="input">
+    </div>
+
+    <div class="form-group">
+      <h4 class="form-title">Número de Teléfono*:</h4>
+      <label for="telefono" class="label"></label>
+      <input type="tel" name="telefono" id="telefono" maxlength="9" required class="input">
+    </div>
+
+    <div class="form-group">
+      <h4 class="form-title">Dirección*:</h4>
+      <label for="direccion" class="label"></label>
+      <input type="text" name="direccion" id="direccion" required class="input">
+    </div>
+
+    <div class="form-group">
+      <h4 class="form-title">Cuentanos tu idea de reforma*:</h4>
+      <label for="idea" class="label"></label>
+      <textarea name="idea" id="idea" cols="50" rows="6" required class="textarea"></textarea>
+    </div>
+
+    <div class="form-group">
+      <h4 class="form-title"> Selecciona el dia para la cita con el técnico</h4>
+      <label for="fecha" class="label"></label>
+      <input type="date" id="fecha" name="fecha" class="input">
+    </div>
+
+    <div class="form-group">
+    <h4 class="form-title"> Seleccione sus horas de disponibilidad 
+    <br>Horario de 9:00 a 14:00 y de 15:00 a 18:00
+    <br> Sabados de 9:00 a 14:00</h4>
+       <h4 class="form-title"> Desde las: </h4>
+      <label for="horaInicio1" class="label"></label> <input type="time" id="horaInicio1" name="horaInicio1" class="input"> 
+
+      <h4 class="form-title"> Hasta las: </h4>
+      <label for="horaFin1" class="label"></label> <input type="time" id="horaFin1" name="horaFin1" class="input"> 
+    </div> 
+
+
+    <button type="submit" class="botonFormulario">Enviar</button>
+  </form>
+
+  <section class="contacto">
+      <h2 class="contacta">Contáctanos</h2>
+      <p>
+        Si tienes alguna pregunta o deseas obtener más información sobre nuestros servicios, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte a hacer realidad tus sueños de hogar.
+      </p>
+      <p>
+        <strong>Correo Electrónico:</strong> presupuestosreformasrn@hotmail.com<br>
+        <strong>Teléfono:</strong> +34 664 56 02 14
+        <strong>Instagram:</strong> reformas.rn
+      </p>
+    </section>
+</main>
+
+<footer class="pie">
+    <div class=flex-container>
+    <p>&copy; 2025 ReformasRN. Todos los derechos reservados.<a href="legal.html" class="enlaceLegal"> Aviso legal y condiciones de uso</a></p>
+  </footer>
+
+
+
+<script src="mod/menuDesp.js"></script>
+</body>
+</html>
