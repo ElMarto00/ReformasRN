@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "public",
   "rewrites": [
-    { "source": "/", "destination": "/inicio.html" },
+    { "source": "/", "destination": "/index.html" },
     { "source": "/Nosotros", "destination": "/Nosotros.html" },
     { "source": "/Servicios", "destination": "/Servicios.html" },
     { "source": "/Contacto", "destination": "/Contacto.html" },
